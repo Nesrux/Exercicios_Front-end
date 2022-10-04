@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!---->
+    <!--começo  da barra de navegação-->
+   <header>  
+       <nav>
+         <a class="logo" href="#">drip's</a>
+            <div class="menu">
+                <ul class="lista_nav">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#">loja</a></li>
+                    <li><a href="form.html">agendamento</a></li>
+                    <li><a href="adocao.html">adoção</a></li>
+                <ul>
+            </div>
+        </nav>
+    </header>
+    <!--fim da barra de navegação-->
+
+<main>
+    <!--formulario-->
+    <div>
+        <h1 id="titulo">Agendamento e SAC</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+
+
+    <form>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual é o tipo do seu animal</strong></label>
+            <label>
+                <input type="radio" name="animal" value="cachorro" checked>Cachorro
+            </label>
+            <label>
+                <input type="radio" name="animal" value="gato">gato
+            </label>
+            <label>
+                <input type="radio" name="animal" value="outro">outro
+            </label>
+        </div>
+
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Selecione a unidade do petshop:</strong></label><br><br>
+                <input type="checkbox" id="regiao1" name="regiao1" value="Itaquera">
+                <label for="regiao1">Itaquera</label>
+                <input type="checkbox" id="regiao2" name="regiao2" value="Mogi">
+                <label for="regiao2">Mogi</label>
+                <input type="checkbox" id="regiao3" name="regiao3" value="Lapa">
+                <label for="regiao3">Lapa</label>
+                <input type="checkbox" id="regiao4" name="regiao4" value="guaianases">
+                <label for="regiao4">guaianases</label>
+                <input type="checkbox" id="regiao5" name="regiao5" value="Morumbi">
+                <label for="regiao5">Morumbi</label>
+                <input type="checkbox" id="regiao6" name="regiao6" value="Paulisa">
+                <label for="regiao6">Paulisa</label>
+                <input type="checkbox" id="regiao7" name="regiao7" value="Paraisópolis">
+                <label for="regiao7">Paraisópolis</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+    </form>
+</main>
+
+
+
+
+
+
+
+
+    <!--Fim do formulario-->
+
+
+
+
+    <!--começo do rodapé-->
+    <footer>
+        <div class="footer-bottom">
+            <p>todos os direitos reservados &copy;2022 instituto Proa feito por <span>Jaumm</span></p>
+        </div>
+    </footer>
+    
+      <!--FIM DO RODA PÈ-->
+    </body>
